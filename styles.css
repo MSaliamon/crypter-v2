@@ -530,3 +530,66 @@ body {
     line-height: 24px;
     color: #202025;
 }
+.avatar3 {
+    position: absolute;
+    top: 494px;
+    left: 128px;
+}
+.avatar-emeil3 {
+    position: absolute;
+    width: 74px;
+    height: 32px;
+    top: 646px;
+    left: 151px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.avatar-text1-3 {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 109px;
+    top: 682px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.avatar-text2-3 {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    top: 682px;
+    left: 187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202025;
+}
+.ranking3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 424px;
+    left: 336px;
+}
+.text-ranking3 {
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 15px;
+    top: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
