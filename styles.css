@@ -593,3 +593,174 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+.avatar4 {
+    position: absolute;
+    left: 528px;
+    top: 494px;
+}
+.avatar-emeil4 {
+    position: absolute;
+    left: 500px;
+    top: 646px;
+    width: 176px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.avatar-text1-4 {
+    position: absolute;
+    left: 509px;
+    top: 682px;
+    width: 75px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.avatar-text2-4 {
+    position: absolute;
+    left: 587px;
+    top: 682px;
+    width: 80px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202025;
+}
+.ranking4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 736px;
+    top: 424px;
+}
+.text-ranking4 {
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 15px;
+    top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202025;
+}
+.avatar5 {
+    position: absolute;
+    left: 128px;
+    top: 894px;
+}
+.avatar-emeil5 {
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    left: 125px;
+    top: 1046px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.avatar-text1-5 {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 109px;
+    top: 1082px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.avatar-text2-5 {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 187px;
+    top: 1082px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202025;
+}
+.ranking5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 336px;
+    top: 824px;
+}
+.text-ranking5 {
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 15px;
+    top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.avatar6 {
+    position: absolute;
+    left: 528px;
+    top: 894px;
+}
+.avatar-emeil6 {
+    position: absolute;
+    width: 115px;
+    height: 32px;
+    left: 530px;
+    top: 1046px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.avatar-text1-6 {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 509px;
+    top: 1082px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.avatar-text2-6 {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 587px;
+    top: 1082px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202025;
+}
