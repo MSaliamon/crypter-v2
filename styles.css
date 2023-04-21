@@ -23,9 +23,8 @@ body {
     border-radius: 12px;
 }
 .search {
-    position: absolute;
-    left: 395px;
-    top: 14px;
+    margin-left: 395px;
+    margin-bottom: 16px;
 }
 .divider {
     position: absolute;
@@ -44,9 +43,9 @@ body {
     height: 48px;
 }
 .nav1 {
-    position: absolute;
-    left: 235.5px;
-    top: 13px;
+    display: block;
+    margin-left: 235.5px;
+    margin-top: 15px;
     width: 78px;
     height: 24px;
     font-family: 'Inter';
@@ -59,9 +58,9 @@ body {
     color: #202025;
 }
 .nav2 {
-    position: absolute;
-    left: 363.5px;
-    top: 13px;
+    display: block;
+    margin-left: 363.5px;
+    margin-top: -23px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -74,6 +73,7 @@ body {
 .nav-btn {
     box-sizing: border-box;
     position: absolute;
+    top: 5px;
     left: 470.5px;
     display: flex;
     flex-direction: row;
@@ -160,7 +160,7 @@ body {
     top: 322px;
 }
 .pull-img {
-    position: relative;
+    position: absolute;
     width: 800px;
     height: 800px;
     top: 400px;
