@@ -1143,3 +1143,42 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.slider2-img1 {
+    width: 400px;
+    height: 400px;
+    margin-top: -532px;
+    margin-left: 520px;
+}
+.slider2-img1-2 {
+    width: 128px;
+    height: 128px;
+    margin-top: -125px;
+    margin-left: -402px;
+}
+.slider2-img1-3 {
+    width: 128px;
+    height: 128px;
+    margin-top: -125px;
+    margin-left: 2px;
+}
+.slider2-phone {
+    width: 128px;
+    height: 128px;
+    margin-left: 792px;
+    margin-top: -142px;
+    background: #B9A9FB;
+    border-radius: 16px;
+}
+.slider2-phone-text {
+    position: relative;
+    left: 46px;
+    top: 46px;
+    width: 32px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
