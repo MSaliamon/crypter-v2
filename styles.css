@@ -1294,3 +1294,36 @@ body {
     margin-left: 960px;
     margin-top: -624px;
 }
+.slider3-img1-2 {
+    width: 128px;
+    height: 128px;
+    margin-top: -222px;
+    margin-left: -402px;
+}
+.slider3-img1-3 {
+    width: 128px;
+    height: 128px;
+    margin-top: -222px;
+    margin-left: 2px;
+}
+.slider3-phone {
+    width: 128px;
+    height: 128px;
+    margin-left: 1232px;
+    margin-top: -240px;
+    background: #DBFF73;
+    border-radius: 16px;
+}
+.slider3-phone-text {
+    position: relative;
+    left: 46px;
+    top: 46px;
+    width: 32px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
