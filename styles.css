@@ -1235,6 +1235,59 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.slider2-text1 {
+    width: 170px;
+    height: 32px;
+    margin-left: 520px;
+    margin-top: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.slider2-text2 {
+    width: 100px;
+    height: 36px;
+    margin-left: 827px;
+    margin-top: -35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #686A6C;
+}
+.slider2-avatar1 {
+    height: 32px;
+    width: 32px;
+    margin-left: 520px;
+}
+.slider2-avatar1-text {
+    width: 144px;
+    height: 36px;
+    margin-left: 564px;
+    margin-top: -34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #202025;
+}
+.slider2-avatar1-text2 {
+    width: 70px;
+    height: 36px;
+    margin-left: 855px;
+    margin-top: -40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #202025;
+}
 .slider3-img1 {
     width: 400px;
     height: 400px;
