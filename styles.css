@@ -1622,3 +1622,147 @@ body {
     line-height: 24px;
     color: #202025;
 }
+.spotlight {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+.spotlight1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+    width: 330px;
+    height: 418px;
+}
+.spotlight1-wraperr {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+    width: 330px;
+    height: 418px;
+}
+.spotlight-text-container1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+    gap: 8px;
+    width: 210px;
+    height: 64px;
+    
+}
+.spotlight1-title {
+    width: 220px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F7FBFA;
+}
+.spotlight1-text {
+    width: 70px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.spotlight-text2 {
+    width: 80px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7FBFA;
+}
+.spot-mini-container {
+    display: flex;
+    flex-direction: row;
+}
+.contain-profil {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 214px;
+    margin-top: -96px;
+    padding: 8px;
+    width: 96px;
+    height: 48px;
+    
+}
+.spotlight2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+    width: 330px;
+    height: 418px;
+}
+.spotlight2-text-container1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+    gap: 8px;
+    width: 210px;
+    height: 64px;
+    
+}
+.spotlight2-title {
+    width: 220px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F7FBFA;
+}
+.spotlight2-text {
+    width: 70px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.spotlight2-text2 {
+    width: 80px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7FBFA;
+}
+.spot2-mini-container {
+    display: flex;
+    flex-direction: row;
+}
+.contain-profil2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 214px;
+    margin-top: -96px;
+    padding: 8px;
+    width: 96px;
+    height: 48px;
+}
