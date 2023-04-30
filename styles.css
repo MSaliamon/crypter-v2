@@ -2660,3 +2660,60 @@ body {
     width: 720px;
     height: 720px;
 }
+.section7-container3 {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.section7-div3 {
+    margin-top: 200px;
+}
+.section7-div3-text1 {
+    width: 640px;
+    height: 128px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+    color: #202025;
+}
+.section7-div3-text2 {
+    margin-top: 40px;
+    width: 640px;
+    height: 96px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #686A6C;
+}
+.btn3-section7 {
+    box-sizing: border-box;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 8px;
+    width: 162px;
+    height: 48px;
+    border: 2px solid #555555;
+    border-radius: 4px;
+}
+.btn3-section7-text {
+    width: 98px;
+    height: 24px;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    color: #202025;
+}
