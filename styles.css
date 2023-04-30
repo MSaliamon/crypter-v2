@@ -1514,7 +1514,7 @@ body {
     padding: 80px;
     gap: 64px;
     width: 1600px;
-    height: 1866px;
+    height: 2000px;
     background: #010101;
 }
 .section6-title {
@@ -2475,5 +2475,18 @@ body {
     font-weight: 800;
     font-size: 12px;
     line-height: 24px;
+    color: #202025;
+}
+
+.section7-title {
+    width: 900px;
+    height: 80px;
+    margin-top: 128px;
+    margin-left: 416px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 80px;
     color: #202025;
 }
