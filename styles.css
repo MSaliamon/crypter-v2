@@ -2977,3 +2977,65 @@ body {
     line-height: 20px;
     color: #686A6C;
 }
+.INFO-footer-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1128px;
+    margin-top: -214px;
+    padding: 0px;
+    gap: 24px;
+    width: 144px;
+    height: 212px;
+}
+.footer-container2-text1 {
+    width: 144px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    color: #202025;
+}
+.footer-container2-text2 {
+    width: 54px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686A6C;
+}
+.footer-container2-text3 {
+    width: 150px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686A6C;
+}
+.footer-container2-text4 {
+    width: 47px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686A6C;
+}
+.footer-container2-text5 {
+    width: 200px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686A6C;
+}
