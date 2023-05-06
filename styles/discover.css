@@ -377,3 +377,1334 @@ body {
     text-align: center;
     margin-top: 8px;
 }
+.section2 {
+    padding-left: 80px;
+    padding-top: 160px;
+}
+.section2-box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    height: 80px;
+}
+.section2-box1-title {
+    width: 195px;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 80px;
+    color: #202025;
+}
+.section2-container-days {
+    margin-left: 799px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 12px;
+    width: 329px;
+    height: 40px;
+}
+.section2-days1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+
+}
+.section2-days1 :hover {
+    background: #202025;
+    color: #F7FBFA;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+    padding: 8px 24px;
+}
+.section2-days1-text {
+    width: 60px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.section2-days2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+.section2-days2 :hover {
+    background: #202025;
+    color: #F7FBFA;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+    padding: 8px 24px;
+}
+.section2-days2-text {
+    width: 60px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.section2-days3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+.section2-days3 :hover {
+    background: #202025;
+    color: #F7FBFA;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+    padding: 8px 24px;
+}
+.section2-days3-text {
+    width: 65px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.section2-containerNFT {
+    padding-top: 64px;
+}
+.section2-containerNFT1 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 1440px;
+    height: 483px;
+}
+.NFT-card1 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card1-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT1 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT1-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified1 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT1-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT1-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT1-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT1-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT1-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card2 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card2-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT2 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT2-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified2 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT2-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT2-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT2-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT2-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT2-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT2-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT2-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card3 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card3-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT3 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT3-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified3 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT3-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT3-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT3-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT3-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT3-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT3-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT3-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.container2-NFT2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 1440px;
+    height: 483px;
+}
+.NFT-card4 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card4-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT4 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT4-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified4 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT4-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT4-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT4-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT4-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT4-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT4-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT4-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.section2-containerNFT2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 1440px;
+    height: 483px;
+}
+.NFT-card5 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card5-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT5 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT5-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified5 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT5-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT5-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT5-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT5-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT5-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT5-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT5-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card6 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card6-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT6 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT6-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified6 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT6-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT6-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT6-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT6-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT6-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT6-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT6-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card7 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card7-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT7 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT7-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified7 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT7-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT7-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT7-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT7-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT7-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT7-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT7-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card8 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card8-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT8 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT8-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified8 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT8-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT8-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT8-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT8-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT8-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT8-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT8-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.section2-containerNFT3 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 1440px;
+    height: 483px;
+}
+.NFT-card9 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card9-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT9 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT9-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified9 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT9-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT9-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT9-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT9-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT9-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT9-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT9-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card10 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card10-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT10 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT10-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified10 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT10-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT10-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT10-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT10-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT10-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT10-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT10-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card11 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card11-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT11 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT11-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified11 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT11-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT11-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT11-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT11-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT11-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT11-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT11-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT-card12 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 483px;
+}
+.NFT-card12-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    height: 40px;
+    margin-top: 24px;
+}
+.avatar-NFT12 {
+    width: 40px;
+    height: 40px;
+}
+.avatar-NFT12-name {
+    width: 146px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202025;
+}
+.verified12 {
+    width: 24px;
+    height: 24px;
+    margin-left: 108px;
+}
+.NFT12-text {
+    display: flex;
+    flex-direction: row;
+}
+.NFT12-text1-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.NFT12-text1-box2 {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NFT12-text1 {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT12-text2 {
+    width: 150px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.NFT12-text3 {
+    margin-left: 100px;
+    width: 140.5px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.NFT12-text4 {
+    margin-left: 50px;
+    width: 140.5px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.section2-btn {
+    margin-left: 640px;
+    width: 153px;
+    height: 48px;
+    border: 2px solid #555555;
+    border-radius: 4px;
+}
+.section2-btn-text {
+    position: relative;
+    top: 10px;
+    left: 45px;
+    width: 89px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    color: #202025;
+}
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
+    gap: 8px;
+    isolation: isolate;
+    width: 1600px;
+    height: 1200px;
+    background: #DBFF73;
+}
+.section3-title {
+    width: 440px;
+    height: 240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 80px;
+    color: #202025;
+}
+.video {
+    margin-left: 818px;
+}
+.section3-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 36px;
+    gap: 12px;
+    width: 254px;
+    height: 64px;
+    background: #F7FBFA;
+    border-radius: 4px;
+}
+.section3-btn-text {
+    width: 127px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    color: #202025;
+}
+
+.section3-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2px 8px;
+    gap: 12px;
+    width: 43px;
+    height: 28px;
+    background: #E1E2E2;
+    border-radius: 12px;
+}
+.section3-box-text {
+    width: 140px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    color: #202025;
+}
+.section3-container-img {
+    margin-left: 800px;
+    margin-top: -408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
+    gap: 8px;
+    isolation: isolate;
+    width: 800px;
+    height: 1200px;
+}
