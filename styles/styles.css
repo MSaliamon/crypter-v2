@@ -1451,6 +1451,9 @@ body {
     line-height: 80px;
     color: #202025;
 }
+.video {
+    margin-left: 818px;
+}
 .section5-btn {
     display: flex;
     flex-direction: row;
