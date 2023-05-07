@@ -335,8 +335,7 @@ body {
     color: #F7FBFA;
 }
 .section2 {
-    position: absolute;
-    top: 1200px;
+    margin-top: 850px;
 }
 .section2-container1 {
     position: absolute;
