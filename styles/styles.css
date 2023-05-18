@@ -2827,7 +2827,7 @@ body {
     color: #A6AEAD;
 }
 .section8-container2-box-text2 {
-    width: 45px;
+    width: 275px;
     height: 24px;
     font-family: 'Inter';
     font-style: normal;
@@ -2843,14 +2843,13 @@ body {
 .profile {
     width: 24px;
     height: 24px;
-    margin-left: 241px;
 }
 .profile-box2 {
     display: flex;
     flex-direction: row;
 }
 .section8-container2-box2-text2 {
-    width: 42px;
+    width: 195px;
     height: 24px;
     margin-left: 420px;
     margin-top: -20px;
@@ -2862,7 +2861,6 @@ body {
     color: #E1E2E2;
 }
 .mail2 {
-    margin-left: 200px;
     margin-top: -20px;
 }
 .section8-container2-btn{
