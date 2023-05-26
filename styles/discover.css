@@ -29,6 +29,9 @@ body {
     width: 727.5px;
     height: 48px;
 }
+.logo{
+    width: 218.4px;
+}
 .nav {
     display: flex;
     flex-direction: row;
@@ -79,7 +82,7 @@ body {
     color: #202025;
 }
 .section1-container1 {
-    background-image: url(/img/discover/Frame\ 1150.png);
+    background-image: url(../img/discover/Frame1150.png);
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3116,7 +3119,7 @@ body {
     color: #A6AEAD;
 }
 .section6-container2-box-text2 {
-    width: 45px;
+    width: 275px;
     height: 24px;
     font-family: 'Inter';
     font-style: normal;

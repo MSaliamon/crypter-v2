@@ -29,6 +29,9 @@ body {
     width: 727.5px;
     height: 48px;
 }
+.logo{
+    width: 218.4px;
+}
 .nav {
     display: flex;
     flex-direction: row;

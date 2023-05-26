@@ -14,7 +14,9 @@
 <body>
     <header>
         <div class="header-div">
-            <img src="./img/logo.svg" alt="logo" class="logo">
+            <a href="index.html" class="logo-brand">
+                <img src="./img/logo.svg" alt="logo" class="logo">
+            </a>
             <div class="container-header">
                 <img src="./img/search.svg" alt="search" class="search">
             </div>
@@ -46,7 +48,7 @@
                 </div>
             </div>
             <div class="section1-container1">
-                <img class="section1-container1-img" src="./img/discover/Frame 1150.png" alt="Robot">
+                <img class="section1-container1-img" src="./img/discover/Frame1150.png" alt="Robot">
                 <div class="section1-container2">
                     <img class="planet" src="./img/shubham-dhage-nG1LnDkt3HA-unsplash 1.png" alt="planet">
                     <div class="section1-container2-box">
@@ -530,7 +532,7 @@
             </div>
             <div class="section4-container2">
                 <h2 class="section4-container2-title">Newsletter</h2>
-                <div class="section4-container2-box">
+                <form class="section4-container2-box" id="subscription_form">
                     <p class="section4-container2-box-text">Get the latest Crypter updates</p>
                     <div class="profile-box">
                         <input class="section4-container2-box-text2" type="text" name="name" required placeholder="Name">
@@ -541,9 +543,9 @@
                         <img class="mail2" src="./img/mail.png" alt="mail">
                     </div>
                     <div class="section4-container2-btn">
-                        <a class="section4-container2-btn-text" href="">SUBSCRIBE NOW</a>
+                        <button class="section4-container2-btn-text" type="submit">SUBSCRIBE NOW</button>
                     </div>
-                </div>
+                </form>
             </div>
         </section>
     </main>
@@ -593,5 +595,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

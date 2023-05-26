@@ -12,6 +12,7 @@ body {
 .logo {
     margin-left: 40px;
     margin-top: 28px;
+    width: 218.4px;
 }
 .header-avatar {
     display: flex;
