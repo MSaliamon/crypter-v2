@@ -1,6 +1,5 @@
 body {
     font-family: 'Inter', sans-serif;
-    max-width: 1600px;
     background: #F7FBFA;
 }
 .header-div {
@@ -20,7 +19,7 @@ body {
 }
 .header-div2 {
     margin-top: -55px;
-    margin-left: 850px;
+    margin-left: 790px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -91,7 +90,8 @@ body {
     color: #202025;
 }
 .box {
-    position: absolute;
+    margin-top: -145px;
+    margin-left: 585px;
     width: 192px;
     height: 72px;
     left: 568px;
@@ -104,11 +104,10 @@ body {
     margin-left: 32px;
 }
 .text-section1 {
-    position: absolute;
+    margin-top: -100px;
+    margin-left: 830px;
     height: 64px;
     width: 640px;
-    left: 840px;
-    top: 182px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -118,9 +117,8 @@ body {
     color: #686A6C;
 }
 .text2-section1 {
-    position: absolute;
-    left: 840px;
-    top: 322px;
+    margin-top: 80px;
+    margin-left: 1070px;
     width: 167px;
     height: 25px;    
     font-family: 'Inter';
@@ -128,45 +126,51 @@ body {
     font-weight: 800;
     font-size: 12px;
     line-height: 24px;
-    letter-spacing: 0.17em;
     text-transform: uppercase;
     color: #202025;
 }
 .placeholder {
-    position: absolute;
+    margin-top: -25px;
+    margin-left: 1020px;
     height: 24px;
     width: 24px;
     left: 1024px;
     top: 322px;
 }
 .pull-img {
-    position: absolute;
-    width: 800px;
+    margin-top: 35px;
+    width: 50%;
     height: 800px;
-    top: 400px;
+}
+.section1-wr {
+    display: flex;
+    flex-direction: row;
 }
 .container-section1 {
-    position: absolute;
-    width: 800px;
+    padding: 80px 80px;
+    margin-top: 35px;
+    width: 50%;
     height: 800px;
     top: 400px;
     left: 800px;
     background: #DBFF73;
 }
 .container-section1-box {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 16px;
     width: 640px;
     height: 92px;
-    margin-top: 80px;
-    margin-left: 80px;
     background: #F7FBFA;
     box-shadow: 0px 16px 40px -8px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
 }
+.container-section1-box1 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
 .container-section1-text1 {
-    position: absolute;
-    top: 16px;
-    left: 24px;
     width: 79px;
     height: 24px;
     font-family: 'Inter';
@@ -177,11 +181,8 @@ body {
     color: #686A6C;
 }
 .container-section1-text2 {
-    position: absolute;
     width: 134.67px;
     height: 32px;
-    top: 44px;
-    left: 60px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -190,16 +191,13 @@ body {
     color: #202025;
 }
 .container-section1-img {
-    position: absolute;
-    top: 48px;
-    left: 24px;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
 }
 .container-section1-text1-1 {
-    position: absolute;
     width: 170.67px;
     height: 24px;
-    left: 235px;
-    top: 16px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -208,7 +206,6 @@ body {
     color: #686A6C;
 }
 .container-section1-text2-1 {
-    position: absolute;
     width: 134.67px;
     height: 32px;
     top: 44px;
@@ -221,12 +218,17 @@ body {
     color: #202025;
 }
 .container-section1-img1 {
-    position: absolute;
-    top: 48px;
-    left: 235px;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+}
+.container-section1-box2 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
 }
 .container-section1-text1-2 {
-    position: absolute;
+    margin-left: 20px;
     width: 170.67px;
     height: 24px;
     left: 445px;
@@ -238,8 +240,13 @@ body {
     line-height: 24px;
     color: #686A6C;
 }
+.container-section1-box3 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
 .container-section1-text2-2 {
-    position: absolute;
     width: 134.67px;
     height: 32px;
     top: 44px;
@@ -252,15 +259,14 @@ body {
     color: #202025;
 }
 .container-section1-img2 {
-    position: absolute;
-    top: 48px;
-    left: 445px;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
 }
 .container-section1-box-title {
-    position: absolute;
+    margin-top: 240px;
     width: 640px;
     height: 160px;
-    top: 420px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -268,73 +274,20 @@ body {
     line-height: 80px;
     color: #202025;
 }
-.button1 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 308px;
-    height: 64px;
-    top: 620px;
-    border: 2px solid #202025;
-    border-radius: 4px;
-}
-.btn-text {
-    position: absolute;
-    width: 74px;
-    height: 24px;
-    left: 100px;
-    top: 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #010101;
-}
-.container-section1-vector {
-    position: absolute;
-    left: 188px;
-    top: 25px;
-}
-.btn2 {
-    position: absolute;
-    width: 308px;
-    height: 64px;
-    top: 620px;
-    left: 360px;
-    background: #202025;
-    border-radius: 4px;
-}
-.btn2-text {
-    position: absolute;
-    width: 98px;
-    height: 24px;
-    left: 106px;
-    top: 30px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 24px;
-    letter-spacing: 0.17em;
-    text-transform: uppercase;
-    color: #F7FBFA;
-}
+
 .section2 {
-    margin-top: 850px;
+    display: flex;
+    flex-direction: row;
 }
 .section2-container1 {
-    position: absolute;
-    width: 800px;
+    padding: 128px 80px;
+    width: 50%;
     height: 1200px;
     background: #F7FBFA;
 }
 .section2-container1-title {
-    position: absolute;
     width: 519px;
     height: 240px;
-    left: 80px;
-    top: 128px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -342,23 +295,10 @@ body {
     line-height: 80px;
     color: #202025;
 }
-.section2-container1-phone-arrow{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 156px;
-    left: 688px;
-    background: #F7FBFA;
-    border: 1px solid #F1F4F4;
-    box-shadow: 0px 20px 16px -6px rgba(0, 0, 0, 0.15);
-    border-radius: 80px;
-}
+
 .section2-container1-text {
-    position: absolute;
     width: 504px;
     height: 128px;
-    top: 944px;
-    left: 80px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -368,28 +308,32 @@ body {
     color: #686A6C;
 }
 .section2-container1 {
-    position: absolute;
-    width: 800px;
+    width: 50%;
     height: 1200px;
 }
 .section2-container2 {
-    position: absolute;
-    width: 800px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     height: 1804px;
-    left: 800px;
     background: #F1F4F4;
 }
+.section2-container2-avatars-row1 {
+    display: flex;
+    flex-direction: row;
+}
+.section2-container2-avatar {
+    padding-left: 128px;
+    width: 400px;
+    height: 400px;
+}
 .avatar {
-    position: absolute;
-    top: 94px;
-    left: 128px;
+    margin-top: 94px;
 }
 .avatar-emeil {
-    position: absolute;
+    margin-left: -25px;
     width: 168px;
     height: 32px;
-    top: 246px;
-    left: 104px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -397,12 +341,13 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.avatar-text {
+    display: flex;
+    flex-direction: row;
+}
 .avatar-text1 {
-    position: absolute;
     width: 75px;
     height: 24px;
-    top: 282px;
-    left: 110px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -411,9 +356,6 @@ body {
     color: #686A6C;
 }
 .avatar-text2 {
-    position: relative;
-    left: 188px;
-    top: 282px;
     width: 80px;
     height: 24px;
     font-family: 'Inter';
@@ -424,42 +366,19 @@ body {
     color: #202025;
 }
 .polygon1 {
-    position: absolute;
     width: 40px;
     height: 40px;
-    left: 336px;
-    top: 24px;
-}
-.text-ranking {
-    position: absolute;
-    width: 8px;
-    height: 24px;
-    left: 351px;
-    top: 26px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: -0.01em;
-    color: #202025;
 }
 .section2-container2-avatar2 {
-    position: absolute;
     width: 400px;
     height: 400px;
-    left: 400px;
+    padding-left: 128px;
 }
 .avatar2 {
-    position: absolute;
-    left: 108px;
-    top: 51px;
+    margin-top: 70px;
 }
 .avatar-emeil2 {
-    position: absolute;
-    left: 134px;
-    top: 215px;
+    margin-left: 20px;
     width: 108px;
     height: 32px;
     font-family: 'Inter';
@@ -469,12 +388,14 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.avatar-text2 {
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+}
 .avatar-text1-2 {
-    position: absolute;
     width: 75px;
     height: 24px;
-    left: 109px;
-    top: 256px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -483,11 +404,8 @@ body {
     color: #686A6C;
 }
 .avatar-text2-2 {
-    position: absolute;
     width: 80px;
     height: 24px;
-    top: 256px;
-    left: 188px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -495,34 +413,23 @@ body {
     line-height: 24px;
     color: #202025;
 }
-.ranking2 {
-    position: absolute;
-    left: 336px;
-    width: 40px;
-    height: 40px;
+.section2-container2-avatars-row2 {
+    display: flex;
+    flex-direction: row;
 }
-.text-ranking2 {
-    position: absolute;
-    left: 15px;
-    top: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #202025;
+.section2-container2-avatar3 {
+    padding-left: 128px;
+    width: 400px;
+    height: 400px;
 }
 .avatar3 {
-    position: absolute;
-    top: 494px;
-    left: 128px;
+    margin-top: 94px;
 }
 .avatar-emeil3 {
-    position: absolute;
-    width: 74px;
+    margin-left: 20px;
+    display: flex;
+    width: 200px;
     height: 32px;
-    top: 646px;
-    left: 151px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -530,12 +437,13 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.avatar-text3 {
+    display: flex;
+    flex-direction: row;
+}
 .avatar-text1-3 {
-    position: absolute;
     width: 75px;
     height: 24px;
-    left: 109px;
-    top: 682px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -544,11 +452,8 @@ body {
     color: #686A6C;
 }
 .avatar-text2-3 {
-    position: absolute;
     width: 80px;
     height: 24px;
-    top: 682px;
-    left: 187px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -556,34 +461,16 @@ body {
     line-height: 24px;
     color: #202025;
 }
-.ranking3 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 424px;
-    left: 336px;
-}
-.text-ranking3 {
-    position: absolute;
-    width: 11px;
-    height: 24px;
-    left: 15px;
-    top: 2px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+.section2-container2-avatar4 {
+    padding-left: 128px;
+    width: 400px;
+    height: 400px;
 }
 .avatar4 {
-    position: absolute;
-    left: 528px;
-    top: 494px;
+    margin-top: 94px;
 }
 .avatar-emeil4 {
-    position: absolute;
-    left: 500px;
-    top: 646px;
+    margin-left: -20px;
     width: 176px;
     height: 32px;
     font-family: 'Inter';
@@ -593,10 +480,11 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.avatar-text4 {
+    display: flex;
+    flex-direction: row;
+}
 .avatar-text1-4 {
-    position: absolute;
-    left: 509px;
-    top: 682px;
     width: 75px;
     height: 24px;
     font-family: 'Inter';
@@ -607,9 +495,6 @@ body {
     color: #686A6C;
 }
 .avatar-text2-4 {
-    position: absolute;
-    left: 587px;
-    top: 682px;
     width: 80px;
     height: 24px;
     font-family: 'Inter';
@@ -619,37 +504,17 @@ body {
     line-height: 24px;
     color: #202025;
 }
-.ranking4 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 736px;
-    top: 424px;
-}
-.text-ranking4 {
-    position: absolute;
-    width: 11px;
-    height: 24px;
-    left: 15px;
-    top: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #202025;
+.section2-container2-avatar5 {
+    padding-left: 128px;
+    width: 400px;
+    height: 400px;
 }
 .avatar5 {
-    position: absolute;
-    left: 128px;
-    top: 894px;
+    margin-top: 94px;
 }
 .avatar-emeil5 {
-    position: absolute;
     width: 126px;
     height: 32px;
-    left: 125px;
-    top: 1046px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -657,12 +522,13 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.avatar-text5 {
+    display: flex;
+    flex-direction: row;
+}
 .avatar-text1-5 {
-    position: absolute;
     width: 75px;
     height: 24px;
-    left: 109px;
-    top: 1082px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -671,11 +537,8 @@ body {
     color: #686A6C;
 }
 .avatar-text2-5 {
-    position: absolute;
     width: 80px;
     height: 24px;
-    left: 187px;
-    top: 1082px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -683,36 +546,22 @@ body {
     line-height: 24px;
     color: #202025;
 }
-.ranking5 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 336px;
-    top: 824px;
+.section2-container2-avatars-row3 {
+    display: flex;
+    flex-direction: row;
 }
-.text-ranking5 {
-    position: absolute;
-    width: 11px;
-    height: 24px;
-    left: 15px;
-    top: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+.section2-container2-avatar6 {
+    padding-left: 128px;
+    width: 400px;
+    height: 400px;
 }
 .avatar6 {
-    position: absolute;
-    left: 528px;
-    top: 894px;
+    margin-top: 94px;
 }
 .avatar-emeil6 {
-    position: absolute;
+    display: flex;
     width: 115px;
     height: 32px;
-    left: 530px;
-    top: 1046px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -721,11 +570,8 @@ body {
     color: #202025;
 }
 .avatar-text1-6 {
-    position: absolute;
     width: 75px;
     height: 24px;
-    left: 509px;
-    top: 1082px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -733,12 +579,13 @@ body {
     line-height: 24px;
     color: #686A6C;
 }
+.avatar-text6 {
+    display: flex;
+    flex-direction: row;
+}
 .avatar-text2-6 {
-    position: absolute;
     width: 80px;
     height: 24px;
-    left: 587px;
-    top: 1082px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -746,36 +593,22 @@ body {
     line-height: 24px;
     color: #202025;
 }
-.ranking6 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 726px;
-    top: 824px;
+.section2-container2-avatars-row4 {
+    display: flex;
+    flex-direction: row;
 }
-.text-ranking6 {
-    position: absolute;
-    width: 11px;
-    height: 24px;
-    left: 15px;
-    top: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+.section2-container2-avatar7 {
+    padding-left: 128px;
+    width: 400px;
+    height: 400px;
 }
 .avatar7 {
-    position: absolute;
-    left: 128px;
-    top: 1294px;
+    margin-top: 94px;
 }
 .avatar-emeil7 {
-    position: absolute;
+    margin-left: -20px;
     width: 161px;
     height: 32px;
-    left: 107px;
-    top: 1446px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -783,12 +616,13 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.avatar-text7 {
+    display: flex;
+    flex-direction: row;
+}
 .avatar-text1-7 {
-    position: absolute;
     width: 75px;
     height: 24px;
-    left: 109px;
-    top: 1482px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -797,11 +631,8 @@ body {
     color: #686A6C;
 }
 .avatar-text2-7 {
-    position: absolute;
     width: 80px;
     height: 24px;
-    left: 187px;
-    top: 1482px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -809,34 +640,18 @@ body {
     line-height: 24px;
     color: #202025;
 }
-.ranking7 {
-    position: absolute;
-    top: 1224px;
-    left: 336px;
-}
-.text-ranking7 {
-    position: absolute;
-    width: 10px;
-    height: 24px;
-    left: 22px;
-    top: 6px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+.section2-container2-avatar8 {
+    padding-left: 128px;
+    width: 400px;
+    height: 400px;
 }
 .avatar8 {
-    position: absolute;
-    top: 1294px;
-    left: 528px;
+    margin-top: 94px;
 }
 .avatar-emeil8 {
-    position: absolute;
+    margin-left: -30px;
     width: 199px;
     height: 32px;
-    left: 488px;
-    top: 1446px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -844,12 +659,13 @@ body {
     line-height: 32px;
     color: #202025;
 }
+.avatar-text8 {
+    display: flex;
+    flex-direction: row;
+}
 .avatar-text1-8 {
-    position: absolute;
     width: 75px;
     height: 24px;
-    left: 509px;
-    top: 1482px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -858,11 +674,8 @@ body {
     color: #686A6C;
 }
 .avatar-text2-8 {
-    position: absolute;
     width: 80px;
     height: 24px;
-    left: 587px;
-    top: 1482px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -870,50 +683,8 @@ body {
     line-height: 24px;
     color: #202025;
 }
-.ranking8 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 1224px;
-    left: 736px;
-}
-.text-ranking8 {
-    position: absolute;
-    width: 10px;
-    height: 24px;
-    left: 15px;
-    top: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-}
-.section2-btn {
-    position: absolute;
-    left: 80px;
-    top: 1660px;
-    width: 640px;
-    height: 64px;
-    background: #202025;
-    border-radius: 4px;
-}
-.section2-btn-text {
-    position: absolute;
-    top: 20px;
-    left: 261px;
-    width: 117px;
-    height: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 24px;
-    color: #F7FBFA;
-}
 .section3 {
-    margin-top: 2655px;
-    width: 1600px;
+    width: 100%;
     height: 1000px;
     background: #010101;
 }
@@ -1023,28 +794,6 @@ body {
     font-size: 18px;
     line-height: 36px;
     color: #A6AEAD;
-}
-.section3-btn {
-    position: absolute;
-    width: 224px;
-    height: 60px;
-    margin-left: 355px;
-    margin-top: 650px;
-    background: #F7FBFA;
-    border-radius: 4px;
-}
-.section3-btn-text {
-    position: absolute;
-    width: 96px;
-    height: 24px;
-    margin-top: 18px;
-    margin-left: 64px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 24px;
-    color: #202025;
 }
 .planet {
     width: 792px;
@@ -1422,11 +1171,12 @@ body {
     padding: 80px;
     gap: 8px;
     isolation: isolate;
-    width: 1600px;
+    width: 100%;
     height: 1200px;
     background: #B9A9FB;
 }
 .section5-title {
+    margin-left: 800px;
     width: 440px;
     height: 240px;
     font-family: 'Inter';
@@ -1437,7 +1187,7 @@ body {
     color: #202025;
 }
 .video {
-    margin-left: 818px;
+    margin-left: 700px;
 }
 .section5-btn {
     display: flex;
@@ -1484,7 +1234,7 @@ body {
     color: #202025;
 }
 .container-img {
-    margin-left: 800px;
+    margin-left: -100px;
     margin-top: -408px;
     display: flex;
     flex-direction: column;
@@ -1501,7 +1251,7 @@ body {
     flex-direction: column;
     padding: 80px;
     gap: 64px;
-    width: 1600px;
+    width: 100%;
     height: 2000px;
     background: #010101;
 }
@@ -2708,6 +2458,8 @@ body {
 .section8 {
     display: flex;
     flex-direction: row;
+    margin-top: 128px;
+    width: 100%;
 }
 .section8-container1 {
     width: 800px;
@@ -2773,7 +2525,7 @@ body {
 }
 .section8-btn2 {
     margin-left: 250px;
-    margin-top: -63px;
+    margin-top: -60px;
     width: 215px;
     height: 60px;
     background: #F7FBFA;
